@@ -1,0 +1,29 @@
+<html>
+ <head>
+  <script src="https://cdn.tailwindcss.com">
+  </script>
+  <link rel="stylesheet" href="stayles.css">
+ </head>
+ <body class="bg--700 h-screen flex flex-col items-center justify-center" style="background-color:rgb( 116, 52, 116)">
+  <div class="absolute top-0 left-0 m-4">
+   <div class="p-4 rounded-lg">
+    <img alt="Placeholder image" class="w-30 h-30" height="200" src="neueslogo.png" width="200" border="0"/>
+   </div>
+  </div>
+  <div class="text-center">
+   <h1 class="text-6xl font-bold"style="text-color:green">
+    UNDERTUNE
+   </h1>
+   <p class="text-2xl text-black mt-4">
+    Find new music
+   </p>
+  </div>
+  <div class="mt-8">
+   <input class="w-96 p-2 rounded-full shadow-lg" placeholder="Search" type="text" id="artistInput"/>
+   <button id="searchButton" onclick="searchArtist()">Search</button>
+   <div id="searchHistory" ><ul id="list"></ul></div>
+    <div id="result"></div>
+  </div>
+ </body>
+ <script src="home.js"></script>
+</html>
