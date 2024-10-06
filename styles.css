@@ -24,3 +24,8 @@ input:focus {
     background-color:  rgb(116, 52, 116);
     border: 0px solid greenyellow;
 }
+ a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
