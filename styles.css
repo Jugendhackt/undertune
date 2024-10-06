@@ -1,24 +1,17 @@
 body {
-    background-color:rgb(116, 52, 116);
+    background-color:rgb(78, 116, 52);
 }
 p {
-    color: white;
+    color: rgb(0, 0, 0);
     font-family: "Lucida Console", "Courier New", monospace;
 }
 h2 {
-    color: greenyellow;
+    color: rgb(79, 247, 2);
     font-family: "Lucida Console", "Courier New", monospace;
 }
 h1 {
-    color: white;
+    color: rgb(79, 247, 2);
     font-family: "Lucida Console", "Courier New", monospace;
-}
-button { 
-    padding: 15px 20px;
-    background-color: greenyellow;
-    color: black;
-    font-family: "Lucida Console", "Courier New", monospace;
-    border: 3px solid white;
 }
 input {
     background-color: rgb(116, 52, 116);
@@ -29,5 +22,5 @@ input {
 }
 input:focus {
     background-color:  rgb(116, 52, 116);
-    border: 3px solid greenyellow;
+    border: 0px solid greenyellow;
 }
